@@ -16,6 +16,10 @@
         <servlet-name>UsuarioServlet</servlet-name>
         <servlet-class>com.servipaquete.controllers.UsuarioServlet</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>PedidoServlet</servlet-name>
+        <servlet-class>com.servipaquete.controllers.PedidoServlet</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>LoginServlet</servlet-name>
         <url-pattern>/LoginServlet</url-pattern>
@@ -31,6 +35,10 @@
     <servlet-mapping>
         <servlet-name>UsuarioServlet</servlet-name>
         <url-pattern>/UsuarioServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>PedidoServlet</servlet-name>
+        <url-pattern>/PedidoServlet</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>

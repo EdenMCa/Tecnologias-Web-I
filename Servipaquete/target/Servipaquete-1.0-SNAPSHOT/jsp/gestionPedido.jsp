@@ -89,7 +89,7 @@
                     </tbody>
                 </table>
 
-                <button class="action-button add-pedido-btn" onclick="location.href = 'agregarPedido.jsp'">
+                <button class="action-button add-pedido-btn" onclick="location.href = '${pageContext.request.contextPath}/PedidoServlet?action=formulario'">
                     <i class="fas fa-plus"></i> Registrar Nuevo Pedido
                 </button>
             </div>
