@@ -27,6 +27,8 @@ Para obtener el proyecto en tu equipo, ejecuta:
 
 git clone (https://github.com/EdenMCa/Tecnologias-Web-I.git)
 
+link de la base de datos: https://drive.google.com/file/d/1hBHO5uXZRX8X14XV-ebecg2EfNbLqSSd/view?usp=drive_link
+
 Después, importa el proyecto en NetBeans y configura la conexión a tu base de datos MySQL con los datos que correspondan.
 
 ---
