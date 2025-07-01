@@ -1,0 +1,51 @@
+/* Estilos para el footer */
+.servipaquete-footer {
+    background-color: #f5f7fa;
+    border-top: 1px solid #dee2e6;
+    padding: 1.5rem 0;
+    margin-top: 3rem;
+    width: 100%;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.footer-content {
+    text-align: center;
+}
+
+.footer-text {
+    color: #6c757d;
+    margin-bottom: 0.5rem;
+    font-size: 0.9rem;
+}
+
+.footer-contact {
+    color: #6c757d;
+    font-size: 0.8rem;
+    margin-bottom: 0;
+}
+
+.footer-icon {
+    margin-right: 5px;
+    color: #0d47a1;
+}
+
+/* Efecto hover para los íconos */
+.footer-contact a:hover .footer-icon {
+    color: #1976d2;
+    transition: color 0.3s ease;
+}
+
+@media (max-width: 768px) {
+    .servipaquete-footer {
+        padding: 1rem 0;
+    }
+    
+    .footer-text, .footer-contact {
+        font-size: 0.8rem;
+    }
+}

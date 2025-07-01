@@ -1,0 +1,12 @@
+com/servipaquete/beans/Usuario.class
+com/servipaquete/controllers/UsuarioServlet.class
+com/servipaquete/beans/Operador.class
+com/servipaquete/controllers/OperadorServlet.class
+com/servipaquete/controllers/LogoutServlet.class
+com/servipaquete/dao/OperadorDAO.class
+com/servipaquete/dao/MotomandadoDAO.class
+com/servipaquete/dao/UsuarioDAO.class
+com/servipaquete/controllers/LoginServlet.class
+com/servipaquete/controllers/MotomandadoServlet.class
+com/servipaquete/beans/Motomandado.class
+com/servipaquete/utils/DBConnection.class

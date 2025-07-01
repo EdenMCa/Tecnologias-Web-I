@@ -1,0 +1,61 @@
+/* Importa estilos base de las páginas de gestión */
+@import url("../css/gestionMotomandados.css");
+
+/* Ajustes puntuales para perfil */
+
+
+/* Secciones internas */
+.perfil-section {
+    margin-bottom: 30px;
+}
+
+.perfil-section h2 {
+    font-size: 1.3rem;
+    color: #0d47a1;
+    border-bottom: 2px solid #e3f2fd;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.perfil-input,
+.perfil-select {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #f8f9fa;
+    font-size: 1rem;
+    box-sizing: border-box;
+    margin-bottom: 18px;
+}
+
+.perfil-input:focus,
+.perfil-select:focus {
+    outline: none;
+    border-color: #0d47a1;
+    background: white;
+    box-shadow: 0 0 0 2px rgba(13,71,161,0.1);
+}
+
+.perfil-btn {
+    padding: 10px 25px;
+    background: linear-gradient(to right, #0d47a1, #1976d2);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.perfil-btn:hover {
+    opacity: 0.9;
+    transform: translateY(-2px);
+}

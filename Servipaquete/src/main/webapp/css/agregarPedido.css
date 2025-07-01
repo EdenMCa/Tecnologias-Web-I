@@ -1,0 +1,163 @@
+/* AGREGAR PEDIDO ESTILOS */
+.agregar-pedido-container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.pedido-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.pedido-header h1 {
+    color: #0d47a1;
+    font-size: 2.2rem;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #0d47a1;
+    padding-bottom: 15px;
+}
+
+.pedido-form-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+}
+
+@media (min-width: 992px) {
+    .pedido-form-container {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+.form-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-section {
+    margin-bottom: 30px;
+}
+
+.form-section h2 {
+    color: #1976d2;
+    border-bottom: 2px solid #e3f2fd;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 8px;
+    font-size: 1rem;
+}
+
+.form-input {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 1rem;
+    background: #f8f9fa;
+    box-sizing: border-box;
+}
+
+.form-input:focus {
+    outline: none;
+    border-color: #0d47a1;
+    background: white;
+    box-shadow: 0 0 0 2px rgba(13, 71, 161, 0.1);
+}
+
+textarea.form-input {
+    min-height: 100px;
+    resize: vertical;
+}
+
+.pedido-items {
+    padding-left: 20px;
+    margin: 10px 0 0;
+}
+
+.pedido-items li {
+    margin-bottom: 8px;
+    color: #444;
+}
+
+.dimensiones-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 15px;
+}
+
+.dimension-item {
+    background: #f8f9fa;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 12px;
+}
+
+.dimension-item label {
+    display: block;
+    font-weight: 500;
+    color: #666;
+    margin-bottom: 5px;
+    font-size: 0.9rem;
+}
+
+.form-buttons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 1px solid #eee;
+    grid-column: 1 / -1;
+}
+
+.btn {
+    padding: 12px 30px;
+    border-radius: 8px;
+    border: none;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    min-width: 180px;
+}
+
+.btn-cancelar {
+    background-color: red;
+    color: #333;
+}
+
+.btn-confirmar {
+    background: linear-gradient(to right, #0d47a1, #1976d2);
+    color: white;
+    box-shadow: 0 4px 10px rgba(13, 71, 161, 0.3);
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+    opacity: 0.9;
+}
+
+.btn:active {
+    transform: translateY(0);
+}
+
+/* Ajuste para el espacio superior */
+body {
+    padding-top: 80px;
+}

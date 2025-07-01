@@ -1,0 +1,12 @@
+/home/eden/NetBeansProjects/Servipaquete/src/main/java/com/servipaquete/beans/Operador.java
+/home/eden/NetBeansProjects/Servipaquete/src/main/java/com/servipaquete/dao/MotomandadoDAO.java
+/home/eden/NetBeansProjects/Servipaquete/src/main/java/com/servipaquete/controllers/UsuarioServlet.java
+/home/eden/NetBeansProjects/Servipaquete/src/main/java/com/servipaquete/controllers/MotomandadoServlet.java
+/home/eden/NetBeansProjects/Servipaquete/src/main/java/com/servipaquete/utils/DBConnection.java
+/home/eden/NetBeansProjects/Servipaquete/src/main/java/com/servipaquete/dao/UsuarioDAO.java
+/home/eden/NetBeansProjects/Servipaquete/src/main/java/com/servipaquete/controllers/LogoutServlet.java
+/home/eden/NetBeansProjects/Servipaquete/src/main/java/com/servipaquete/beans/Motomandado.java
+/home/eden/NetBeansProjects/Servipaquete/src/main/java/com/servipaquete/beans/Usuario.java
+/home/eden/NetBeansProjects/Servipaquete/src/main/java/com/servipaquete/controllers/OperadorServlet.java
+/home/eden/NetBeansProjects/Servipaquete/src/main/java/com/servipaquete/controllers/LoginServlet.java
+/home/eden/NetBeansProjects/Servipaquete/src/main/java/com/servipaquete/dao/OperadorDAO.java

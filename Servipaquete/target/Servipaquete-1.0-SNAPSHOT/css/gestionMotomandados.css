@@ -1,0 +1,284 @@
+/* Estilos base similares a registro de pedidos */
+body {
+    background: #f5f7fa;
+    padding: 20px;
+    color: #333;
+    padding-top: 80px; /* Espacio para el navbar */
+}
+
+.registro-pedidos-container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.pedido-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.pedido-header h1 {
+    color: #0d47a1;
+    font-size: 2.2rem;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #0d47a1;
+    padding-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.pedido-header h1 i {
+    font-size: 2.2rem;
+}
+
+.pedido-header p {
+    color: #666;
+    font-size: 1.1rem;
+    margin-top: 10px;
+}
+
+/* Tabla */
+.pedidos-container {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+    padding: 25px;
+    margin-bottom: 30px;
+    overflow-x: auto;
+}
+
+.pedidos-table {
+    width: 100%;
+    border-collapse: collapse;
+    min-width: 600px;
+}
+
+.pedidos-table th {
+    background-color: #0d47a1;
+    color: white;
+    text-align: left;
+    padding: 12px 15px;
+    font-weight: 600;
+}
+
+.pedidos-table td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #e0e0e0;
+    color: #444;
+    font-size: 0.95rem;
+}
+
+.pedidos-table tr:hover {
+    background-color: #f5f7fa;
+}
+
+/* Estado */
+.status-activo {
+    background-color: #E8F5E9;
+    color: #2E7D32;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 500;
+    display: inline-block;
+}
+
+.status-inactivo {
+    background-color: #FFEBEE;
+    color: #C62828;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 500;
+    display: inline-block;
+}
+
+/* Botones de acción */
+.action-btn {
+    padding: 8px 12px;
+    background: #f8f9fa;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.2s;
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    margin: 2px;
+    color: #333;
+}
+
+.action-btn:hover {
+    background: #0d47a1;
+    color: white;
+    border-color: #0d47a1;
+}
+
+/* Botón flotante agregar */
+.add-btn {
+    position: fixed;
+    bottom: 80px;
+    right: 30px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: linear-gradient(to right, #0d47a1, #1976d2);
+    color: white;
+    border: none;
+    box-shadow: 0 5px 15px rgba(13, 71, 161, 0.5);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    transition: all 0.3s;
+    z-index: 100;
+}
+
+.add-btn:hover {
+    transform: scale(1.1);
+}
+
+/* Modal */
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 1000;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 5px 30px rgba(0, 0, 0, 0.3);
+    width: 90%;
+    max-width: 600px;
+    max-height: 90vh;
+    overflow-y: auto;
+    position: relative;
+    animation: modalOpen 0.4s ease;
+}
+
+@keyframes modalOpen {
+    from {opacity: 0; transform: translateY(-50px);}
+    to {opacity: 1; transform: translateY(0);}
+}
+
+.modal-header {
+    background: linear-gradient(to right, #0d47a1, #1976d2);
+    color: white;
+    padding: 20px;
+    border-radius: 15px 15px 0 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.modal-header h2 {
+    font-size: 1.8rem;
+    margin: 0;
+}
+
+.close-modal {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.8rem;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.close-modal:hover {
+    transform: rotate(90deg);
+}
+
+.modal-body {
+    padding: 25px;
+}
+
+.form-group {
+    margin-bottom: 18px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 8px;
+    font-size: 1rem;
+}
+
+.form-group .value,
+.form-group input,
+.form-group select {
+    background: #f8f9fa;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 12px 15px;
+    font-size: 1rem;
+    width: 100%;
+    box-sizing: border-box;
+    min-height: 45px;
+}
+
+.modal-footer {
+    padding: 20px;
+    border-top: 1px solid #eee;
+    text-align: right;
+}
+
+.modal-btn {
+    padding: 10px 25px;
+    background: linear-gradient(to right, #0d47a1, #1976d2);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.modal-btn:hover {
+    opacity: 0.9;
+    transform: translateY(-2px);
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+    .pedido-header h1 {
+        font-size: 1.8rem;
+    }
+
+    .pedidos-table {
+        min-width: 100%;
+    }
+}
+
+.tabla-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.action-btn.delete-btn {
+    color: #c62828;
+    border-color: #ffcdd2;
+}
+
+.action-btn.delete-btn:hover {
+    background: #c62828;
+    color: white;
+    border-color: #c62828;
+}
