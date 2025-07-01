@@ -1,10 +1,10 @@
-# Servipaquete - Sistema de Motomandados
+# ServiPaquete - Sistema de Motomandados
 
 Este proyecto corresponde a la materia **Tecnología Web I**, impartida por el **Lic. Rubén García**.
 
 ## Descripción
 
-**Servipaquete Ixtlán** es un servicio de motomandados que opera en toda la Sierra Juárez. El sistema está diseñado para facilitar la gestión de pedidos, operadores, motomandados y el flujo de trabajo completo que requiere este servicio de paquetería.
+**ServiPaquete Ixtlán** es un servicio de motomandados que opera en toda la Sierra Juárez. El sistema está diseñado para facilitar la gestión de pedidos, operadores, motomandados y el flujo de trabajo completo que requiere este servicio de paquetería.
 
 Este es mi **proyecto ordinario**, desarrollado con las siguientes tecnologías: JSP (JavaServer Pages), CSS para estilos visuales, Servlets para la lógica del servidor, Beans Java para representar entidades, Java DAO para acceso y manipulación de datos en la base de datos, y MySQL como sistema gestor de base de datos.
 
@@ -25,7 +25,7 @@ Para compilar y ejecutar este sistema correctamente, necesitas:
 
 Para obtener el proyecto en tu equipo, ejecuta:
 
-git clone <URL-del-repositorio>
+git clone (https://github.com/EdenMCa/Tecnologias-Web-I.git)
 
 Después, importa el proyecto en NetBeans y configura la conexión a tu base de datos MySQL con los datos que correspondan.
 
